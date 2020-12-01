@@ -41,3 +41,6 @@ switch
 - while           - break
 - do...while
 - for...in
+
+## Orientação a objetos e Design Patterns com a linguagem ES6
+
