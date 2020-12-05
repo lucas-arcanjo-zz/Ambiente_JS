@@ -42,5 +42,35 @@ switch
 - do...while
 - for...in
 
-## Orientação a objetos e Design Patterns com a linguagem ES6
+`//` 
+Utilizado para fazer comentários em uma linha
+`/**/`
+Utilizado para fazer mais comentários em várias linhas
 
+#### Orientação a objetos e Design Patterns com a linguagem ES6
+
+# Aula5 - Variáveis e tipos primitivos
+Identificadores
+- Podem começar com letra, $ ou _
+- Não podem começar com números
+- É possível usar letras ou números
+- É possível usar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palavras reservadas
+ 
+Dicas para Identificadores
+
+- Maiúsculas e minúsculas fazem diferença
+- Tente escolher nomes coerentes para variáveis
+Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+O JS não diferencia tipos primitivos como `int`,`float`, todos o números em JS é classificado como `number`
+## number
+Infinity
+NaN
+## string
+## boolean
+## null
+## undefined
+## object
+## function
