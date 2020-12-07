@@ -43,9 +43,9 @@ switch
 - for...in
 
 `//` 
-Utilizado para fazer comentários em uma linha
+Utilizado para fazer comentários em uma linha em `JS`
 `/**/`
-Utilizado para fazer mais comentários em várias linhas
+Utilizado para fazer mais comentários em várias linhas `JS` e `CSS`
 
 #### Orientação a objetos e Design Patterns com a linguagem ES6
 
@@ -74,3 +74,14 @@ NaN
 ## undefined
 ## object
 ## function
+
+# Aula6 Tratamento de Dados
+`Number.parseInt(n)`
+para converter tipos primitivos em inteiro
+`Number.parseFloat(n)`
+para converter tipos primitivos em real
+`Number(n)`
+para converter conforme tanto real, como inteiro
+`String(n)` ou `n.toString`
+para converter em uma string
+(um ponto importante, o "N" de number, e o "I" de int, o "F" de float e o "S" de string devem ser maiúsculo)

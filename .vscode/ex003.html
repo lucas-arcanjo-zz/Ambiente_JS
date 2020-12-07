@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro programa em JS</title>
+    <style>
+        body{
+            background-color: rgb(78, 78, 230);
+            color: white;
+            font: normal 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+    <p>teste, testando</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) // o comando já converte para string, mesmo que que seja uma variável number
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + String(s)) // por isso o resultado está equivocado, o JS está concatenando os valores.
+        /*No JS, o + tem o poder de fazer adição e concatenação
+        para somar é 
+        number + number
+        para concatenar
+        number + string ou string + number*/
+    </script>
+</body>
+</html>
