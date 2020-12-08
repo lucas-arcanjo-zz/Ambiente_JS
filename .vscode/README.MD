@@ -111,3 +111,36 @@ utilizado para substituir componentes
 localiza variável local ou do mundo.
 `var n1 = 1550.5`
 `n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})`
+
+
+# Aula7 Operadores parte1
+
+## Operador aritméticos
+5 + 2 == 7
+5 - 2 == 3
+5 * 2 == 10
+5 / 2 == 2.5
+5 % 2 == 1
+5 ** 2 == 25
+
+ordem de precedência
+()
+**
+* / % 
++ -
+### auto-atribuição
+var n = 3
+n = n + 4 
+n = 7
+para simplificar é n+=4
+
+### Incremento
+var n = 10
+n++
+n = 11
+
+##    atribuição
+
+-    relacionais
+-    lógicos
+-    ternário
