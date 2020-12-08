@@ -85,3 +85,29 @@ para converter conforme tanto real, como inteiro
 `String(n)` ou `n.toString`
 para converter em uma string
 (um ponto importante, o "N" de number, e o "I" de int, o "F" de float e o "S" de string devem ser maiúsculo)
+
+`${}` (templates string)
+para formatação de textos é necessário utilizar "``" no texto colocar a variável nas chaves.
+ex
+var nome = 'Lucas'
+`Olá, meu nome é ${nome}`
+
+`s.length`
+Quantos caracteres a string tem
+
+`s.toUpperCase()`
+tudo para MAIÚSCULO
+
+`s.toLowerCase()`
+tudo para minúsculo
+
+`toFixed()`
+quantidade de números depois do ponto(.)
+
+`replace()`
+utilizado para substituir componentes
+
+`toLocalsString()`
+localiza variável local ou do mundo.
+`var n1 = 1550.5`
+`n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})`
