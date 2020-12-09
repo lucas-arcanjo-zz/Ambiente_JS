@@ -128,7 +128,7 @@ ordem de precedência
 **
 * / % 
 + -
-### auto-atribuição
+## Operadores de atribuição
 var n = 3
 n = n + 4 
 n = 7
@@ -139,8 +139,34 @@ var n = 10
 n++
 n = 11
 
-##    atribuição
+## Operadores relacionais
+>   maior
+<   menos
+>=  maior ou igual
+<=  menor ou igual 
+==  igual
+!=  diferente
 
--    relacionais
--    lógicos
--    ternário
+### Identidade
+5 == 5 true
+5 == '5' true
+o JS analisa o que é sua grandeza
+para ter mais precisão é necessário utilizar `===`
+
+## Operadores lógicos
+ordem de precedência completa
+()
+**
+* / % 
++ -
+!   negação     (oposto)
+&&  conjunção   (e)
+||  disjunção   (ou)
+
+## Operador ternário
+? condição apos verdadeiro
+: condição apos falso
+exemplo
+`media = 5.5`
+`media > 7?'APROVADO':'REPROVADO'`
+`REPROVADO`
