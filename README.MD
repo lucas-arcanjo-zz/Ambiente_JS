@@ -178,14 +178,26 @@ existe uma arvore DOM no navegador...
 
 selecionando elementos
 
-- por Marca
+## TagName
 getElementByTagName()
-- por ID
+## ID
 getElementById()
-- por Nome
+## Name
 getElementsByName()
-- por Classe
+## ClassName
 getElementsByClass()
-- por Seletor
+## querySelector
 querySelector()
 querySelectorAll()
+
+# Aula10 - Eventos DOM
+
+Eventos são coisas que podem acontecer com elementos
+
+exemplos de eventos mouse
+
+- mouseenter         - mousemove
+- mousedown          - mouseup
+- click              - mouseout
+
+blocos em JS é utilizado como `{}`
