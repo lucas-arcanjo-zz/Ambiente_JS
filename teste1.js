@@ -1,3 +1,4 @@
+var divisao = 1
 let limit = parseInt(gets());
 for (let i = 0; i < limit; i++) {
     let line = gets().split(" ");
