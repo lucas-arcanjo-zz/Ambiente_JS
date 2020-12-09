@@ -170,3 +170,22 @@ exemplo
 `media = 5.5`
 `media > 7?'APROVADO':'REPROVADO'`
 `REPROVADO`
+
+# Aula9 - Introdução ao DOM
+DOM (Document Object Model)
+É usado na web em html
+existe uma arvore DOM no navegador...
+
+selecionando elementos
+
+- por Marca
+getElementByTagName()
+- por ID
+getElementById()
+- por Nome
+getElementsByName()
+- por Classe
+getElementsByClass()
+- por Seletor
+querySelector()
+querySelectorAll()
