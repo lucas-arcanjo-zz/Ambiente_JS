@@ -1,1 +1,1 @@
-console.log('O Console pega')
+console.log('O console funcionou corretamente!')
