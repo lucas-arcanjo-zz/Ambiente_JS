@@ -201,6 +201,8 @@ exemplos de eventos mouse
 - click              - mouseout
 
 blocos em JS é utilizado como `{}`
+`addEventListener` é um comando que presta atenção aos eventos 
+
 
 # Aula11
 
