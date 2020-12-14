@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de nacionalidade</title>
+    <style>
+        body{
+            background: greenyellow;
+        }
+        input{
+            margin-bottom: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Digíte seu País</h1>
+    <input type="text" name="es" id="es">
+    <input type="button" value="Consultar" onclick="consulta()">
+    <div id="inf">
+        
+    </div>
+    <script>
+        function consulta(){
+            var pais = window.document.getElementById('es')
+            var res = window.document.querySelector('div#inf')
+            var p = pais.value
+            res.innerHTML += `<p>Seu país é <strong>${p}</strong></p>`
+            if (p=='Brasil'){
+                res.innerHTML += '<p>Você é Brasileiro</p>'
+            }
+            else {
+                res.innerHTML += '<p>Você é Estrangeiro</p>'
+            }
+            res.innerHTML += 'Seja Bem-vindo'
+        }
+    </script>
+</body>
+</html>
