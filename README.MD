@@ -203,6 +203,9 @@ exemplos de eventos mouse
 blocos em JS é utilizado como `{}`
 `addEventListener` é um comando que presta atenção aos eventos 
 
-
 # Aula11
+No JS, existem condições
+condição simples que só utiliza o `ìf`
+condição composta que utiliza `if` e `else`
+
 
