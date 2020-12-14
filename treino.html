@@ -28,7 +28,7 @@
             border: dashed rgba(
                 0, 0, 0, 0.5);
         }
-        div.auto{
+        //div.auto{
             background: rgb(87, 87, 209);
             width: 100px;
             height: 25px;
@@ -47,12 +47,13 @@
     <div class="auto">auto x auto</div>
     
     <script>
-        var area = window.document.getElementById('bloco')
+        var area = window.document.querySelector('div.auto')
         area.addEventListener('click', clicar)
+
         function clicar(){
             area.innerText= 'clicou'
             area.style.background= 'green'
-            area.style.color= 'pink'
+            area.style.color= 'red'
         }        
     </script>
     
