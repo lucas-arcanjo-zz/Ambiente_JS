@@ -216,3 +216,5 @@ existe também a Condição Múltipla
 `switch()` é o metodo utilizado, esse é bem mais útil para casos mais robustos, com números inteiros e strings, mais usado em funções já feitas.
 importante lembrar que é obrigatório utilizar o metodo `break` 
 EXEMPLO NO ARQUIVO EX013.JS
+
+# Aula13
