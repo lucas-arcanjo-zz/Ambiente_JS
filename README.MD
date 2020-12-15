@@ -217,4 +217,7 @@ existe também a Condição Múltipla
 importante lembrar que é obrigatório utilizar o metodo `break` 
 EXEMPLO NO ARQUIVO EX013.JS
 
+um site de imagens de alta qualidade para referências
+https://www.pexels.com/pt-br/
+
 # Aula13
