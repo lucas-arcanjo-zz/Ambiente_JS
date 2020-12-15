@@ -208,4 +208,11 @@ No JS, existem condições
 condição simples que só utiliza o `ìf`
 condição composta que utiliza `if` e `else`
 
-
+# Aula12
+No JS, existe outra condição
+uma condinção aninhada, que vem de ninho, com o comando `else if`
+Um macete utilizado na aula é a utilização da hora atual, utilizando `new Date` podendo escolher minutos, data etc.
+existe também a Condição Múltipla
+`switch()` é o metodo utilizado, esse é bem mais útil para casos mais robustos, com números inteiros e strings, mais usado em funções já feitas.
+importante lembrar que é obrigatório utilizar o metodo `break` 
+EXEMPLO NO ARQUIVO EX013.JS
