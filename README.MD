@@ -221,3 +221,17 @@ um site de imagens de alta qualidade para referências
 https://www.pexels.com/pt-br/
 
 # Aula13
+Estrutura de repetição com teste lógico inicial
+exemplo:
+`c = 1`
+`while (c < 6) {`
+`   console.log(testando)`
+`   c++`
+`}`
+Estrutura de repetição com teste lógico no final
+exemplo:
+`c = 1`
+`do {`
+`   console.log(testando)`
+`   c++`
+`} while (c < 6)`
