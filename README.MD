@@ -241,3 +241,9 @@ estrutura de repetição com variável de controle
 - inicialização
 - teste lógico
 - incremento
+exemplo:
+`console.log('Vai começar')`
+`for (c = 1; c <= 6 ; c++) {`
+`    console.log(`${c}x`)`
+`}`
+`console.log('FIM')`
