@@ -235,3 +235,9 @@ exemplo:
 `   console.log(testando)`
 `   c++`
 `} while (c < 6)`
+
+# Aula14
+estrutura de repetição com variável de controle
+- inicialização
+- teste lógico
+- incremento
