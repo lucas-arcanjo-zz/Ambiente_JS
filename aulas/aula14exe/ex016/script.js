@@ -1,9 +1,11 @@
-var inicio = document.getElementById('txtinicio')
-var fim = document.querySelector('div#txtfim')
-var res = document.querySelector('div#res')
 function contar() {
-    for (inicio = 1; c <= 10; c += 2) {
-        console.log(`${c}x`)
-        res.innerHTML = `a soma de ${inicio} é essa`
-    }
+    let ini = document.querySelector('input#txtinicio')
+    let fim = document.getElementById('txtfim')
+    let pas = document.querySelector('input#txtpasso')
+    let res = document.getElementById('res')
+    if (ini.value.length == 0 || fim.value.length == 0 || pas.value.length == 0) {
+        window.alert('[ERRO] faltam dados')
+    } else {
+        res.innerHTML = 'Contando...'
+    }     
 }
