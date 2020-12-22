@@ -247,3 +247,8 @@ exemplo:
 `    console.log(`${c}x`)`
 `}`
 `console.log('FIM')`
+
+# Aula14Exec
+
+https://unicode.org/emoji/charts/full-emoji-list.html
+Utilizado para colocar emojis no código, já no JS, utilizasse `\u{}` e o codigo dentro das chaves
