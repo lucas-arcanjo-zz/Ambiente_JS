@@ -8,14 +8,17 @@
 </head>
 <body>
     <header>
-        <h1>titulo</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            Mensagem
+        <div id="msg">
+            <p>Inicio: <input type="number" name="txtinicio" id="txtinicio"></p>
+            <p>Fim: <input type="number" name="txtfim" id="txtfim"></p>
+            <p>Passo: <input type="number" name="txtpasso" id="txtpasso"></p>
+            <input type="button" value="Contar" onclick="contar()">
         </div>
-        <div>
-            
+        <div id="res">
+            Preecha os campos para ver o resultado
         </div>
     </section>
     <footer>
