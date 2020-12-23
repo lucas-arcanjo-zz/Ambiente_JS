@@ -252,3 +252,25 @@ exemplo:
 
 https://unicode.org/emoji/charts/full-emoji-list.html
 Utilizado para colocar emojis no código, já no JS, utilizasse `\u{}` e o codigo dentro das chaves
+
+# Aula15
+Funções:
+Métodos:push()
+Método interno: sort()
+Atributo:length
+Eventos:
+Parâmetros:
+Vetores ou array
+existem variáveis simples e composta
+
+variável simples suporta apenas 1 
+variável composta suporta mais que 1
+
+um vetor é composto por elementos
+
+frase 
+um array/vetor/variavel composta, é uma variavel
+que tem varios elementos, cada elementos é composto 
+por seu valor e por uma chave de identificação.
+`indexOf()` Utilizado para encontrar o elemento dentro de um array
+e mostra o indice de onde está, se der `-1` é o por que não foi encotrado
