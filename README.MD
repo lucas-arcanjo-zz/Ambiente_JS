@@ -274,3 +274,7 @@ que tem varios elementos, cada elementos é composto
 por seu valor e por uma chave de identificação.
 `indexOf()` Utilizado para encontrar o elemento dentro de um array
 e mostra o indice de onde está, se der `-1` é o por que não foi encotrado
+
+# Aula16
+JS é uma linguagem funcional
+    
