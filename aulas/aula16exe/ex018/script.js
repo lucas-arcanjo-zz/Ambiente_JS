@@ -4,7 +4,7 @@ function adicionar() {
         window.alert('Valor inválido ou já encontrado na lista')
     } else {
         cx = Number(cax.value)
-        item = document.createElement('option')
+        let item = document.createElement('option')
         
          
         
