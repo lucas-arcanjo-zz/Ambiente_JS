@@ -14,6 +14,7 @@ function adicionar() {
     }
 } 
 
+
 function finalizar() {
     return res.innerHTML = 'ok'
 }
