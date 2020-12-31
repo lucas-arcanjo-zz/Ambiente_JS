@@ -1,19 +1,10 @@
 let cax = document.getElementById('txtn')
 let res = document.getElementById('res')
-let selcx =  document.getElementById('cxn')
+let lista =  document.getElementById('cxn')
+let valores = []
 
-function adicionar() {
+function adicionar(){
     if (cax.value <= 0 || cax.value > 100) {
-        window.alert('Valor inválido ou já encontrado na lista')
-    } else {
-        //selcx.innerHTML= ''
-        let cx = Number(cax.value)
-        let item = document.createElement('option')
-        item.text = `valor ${cx} adicionado`
-        selcx.appendChild(item)
+        window.alert('[ERRO] digíte um número de 1 a 100')
     }
-} 
-
-function finalizar() {
-    return res.innerHTML = 'ok'
 }
