@@ -6,5 +6,7 @@ let valores = []
 function adicionar(){
     if (cax.value <= 0 || cax.value > 100) {
         window.alert('[ERRO] digíte um número de 1 a 100')
+    } else if {
+        window.alert('ok')
     }
 }
