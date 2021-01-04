@@ -21,6 +21,9 @@ footer{
     text-align: center; 
     font-style: italic;
 }
+select{
+    width: 150px;
+}
 div{
     padding: 8px;
 }

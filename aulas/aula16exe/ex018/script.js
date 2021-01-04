@@ -1,12 +1,28 @@
-let cax = document.getElementById('txtn')
+let num = document.getElementById('fnum')
+let lista = document.querySelector('select#flista')
 let res = document.getElementById('res')
-let lista =  document.getElementById('cxn')
 let valores = []
 
-function adicionar(){
-    if (cax.value <= 0 || cax.value > 100) {
-        window.alert('[ERRO] digíte um número de 1 a 100')
-    } else if {
-        window.alert('ok')
+function isNumero(n) {
+    if (Number(num.value) >= 1 && Number(num.value) <= 100) {
+    return true
+    } else {
+        return false
+    }
+}
+
+function isLista(n, l){
+    if (l.indexOf(Number(n)) != -1 ) {
+        return true
+    } else {
+        return false
+    }
+}
+
+function adicionar() {
+    if(isNumero(num.value) && !isLista(num.value, valores)) {
+        window.alert('OK')
+    } else {
+        window.alert('ERRO')
     }
 }
