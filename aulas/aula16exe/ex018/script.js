@@ -31,3 +31,11 @@ function adicionar() {
     num.value = ''
     num.focus()
 }
+
+function finalizar() {
+    if(valores.length == 0) {
+        window.alert('Adicione valores antes de finalizar!')
+    } else {
+        window.alert('segue o baile')
+    }
+}
