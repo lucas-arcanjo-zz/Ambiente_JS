@@ -278,6 +278,6 @@ JS é uma linguagem funcional
 ![k](https://user-images.githubusercontent.com/61436988/103154499-615b0480-4776-11eb-8397-033268cf4b56.png)
 
 
-# Aula16
-
-    
+# Aula16ExecPart2
+`focus`
+utilizado para deixar o curso piscando dentro de uma caixa
