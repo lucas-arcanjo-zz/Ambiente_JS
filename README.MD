@@ -281,3 +281,14 @@ JS é uma linguagem funcional
 # Aula16ExecPart2
 `focus`
 utilizado para deixar o curso piscando dentro de uma caixa
+
+# Aula17
+o que estudar, proximos passos
+
+- functions
+- objetos
+- modularização
+- RegEx
+- JSON
+- AJAX
+- NodeJS
