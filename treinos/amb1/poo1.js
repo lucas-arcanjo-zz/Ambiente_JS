@@ -4,4 +4,5 @@ function createNewPerson(name) {
     console.log('Hi! I\'m ' + obj.name + '.')
     return obj;
 }
-createNewPerson('lucas')
+
+createNewPerson('lucas');
