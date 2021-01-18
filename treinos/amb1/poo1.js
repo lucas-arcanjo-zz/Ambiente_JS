@@ -6,3 +6,8 @@ function createNewPerson(name) {
 }
 
 createNewPerson('lucas');
+
+function amigo(nome) {
+var obj = ['Lucas' , 'Filipe', 'João'];
+console.log(obj[0]);
+}
