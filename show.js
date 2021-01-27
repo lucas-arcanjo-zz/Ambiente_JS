@@ -11,4 +11,3 @@ console.log("FIM")*/
 ale = Math.floor(91, 11)
 console.log(ale)
 
-
