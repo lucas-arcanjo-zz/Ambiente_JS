@@ -10,4 +10,3 @@ for (c = 0; c <= 10; c++) {
 console.log("FIM")*/
 ale = Math.floor(91, 11)
 console.log(ale)
-
