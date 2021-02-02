@@ -5,5 +5,4 @@
     12.5 // reais - float
     NaN // Not a Number
     Infinity // infinito
-
 */
