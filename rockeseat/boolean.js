@@ -6,3 +6,5 @@ Boolean
     false // falso
 
 */
+
+console.log(true)
