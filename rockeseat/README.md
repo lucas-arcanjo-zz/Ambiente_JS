@@ -37,5 +37,26 @@ interpolando valores com template literals or template strings
 ``console.log(`O ${name} tem ${age} anos.`)``
 
 Utilizando objetos
+```
+const person = {
+    name: 'Lucas',
+    age: 23,
+    sexo: 'M',
+}
+
+console.log(`Hello, my name is ${person.name}, have ${person.age} years.`)
+```
+
+Utilizando array
+```
+const animals = [
+    'Lion',
+    'Monkey',
+    'Cat'
+]
+
+```
+acessando valores em um array
+`console.log(animals[0])`
 
 
