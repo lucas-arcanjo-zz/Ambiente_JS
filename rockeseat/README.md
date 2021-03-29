@@ -10,8 +10,6 @@ aí que entra o conceito de `hoisting`
 `const` e `let` são locais e só funcionam no escopo onde foi criado.
 
 
-## Praticando e avançando
-
 declaration or declaração:
 `var name`
 
@@ -58,5 +56,40 @@ const animals = [
 ```
 acessando valores em um array
 `console.log(animals[0])`
+=============================================
+function expression
+function anonymous
+
+parâmetros or parameters
+```
+const sum = function(number1, number2) {
+    console.log(number1 + number2)
+}
+sum(2, 3) // arguments or argumentos
+```
+
+arrow function 
+```
+const sayMyName = () => {
+    console.log('lucas')
+}
+sayMyName();
+```
+
+callback function or chamar de voltar uma função
+```
+function sayMyName(nome) {
+    console.log('antes de entrar em uma callback')
+    
+    nome()
+
+    console.log('depois de entrar em uma callback')
+}
+sayMyName(
+    () => {
+        console.log('estou em uma callback')
+    }
+);
+```
 
 

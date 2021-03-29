@@ -21,3 +21,20 @@
 // ]
 // console.log(animals[0])
 
+// const sayMyName = () => {
+//     console.log('lucas')
+// }
+// sayMyName();
+
+function sayMyName(nome) {
+    console.log('antes de entrar em uma callback')
+    
+    nome()
+
+    console.log('depois de entrar em uma callback')
+}
+sayMyName(
+    () => {
+        console.log('estou em uma callback')
+    }
+);
