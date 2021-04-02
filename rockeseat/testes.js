@@ -28,7 +28,7 @@
 
 // function sayMyName(nome) {
 //     console.log('antes de entrar em uma callback')
-    
+
 //     nome()
 
 //     console.log('depois de entrar em uma callback')
@@ -156,16 +156,119 @@
 // let two = 2
 // console.log(one == two)
 
-let x 
+// let x 
 
 // assignment
-x = 1
+// x = 1
 // addition assignment
-x +=2
+// x +=2
 // subtraction assignment
-x -=2
+// x -=2
 // multiplication assignment
-x *= 2
+// x *= 2
 // division assignment
-x /= 2
-console.log(x)
+// x /= 2
+// console.log(x)
+
+// let pao = true
+// let queijo = false
+
+// const niceBreakfast = pao || queijo ? 'Café top' : 'Café ruim'
+
+// console.log(niceBreakfast)
+
+// Maior de 18
+
+// let age = 16
+// const canDrive = age >= 18 ? 'can drive' : "cant't drive"
+// console.log(canDrive)
+
+// console.log( ? "verdadeiro" : "falso")
+
+//  console.log((2 + 5) * 10 )
+
+// let temperature = 37.4
+
+// if(temperature >= 37.5) {
+//     console.log('febre alta')
+// } else if(temperature < 37.5 && temperature >= 37){
+//     console.log('febre moderada')
+// } else {
+//     console.log('saudável')
+// }
+
+// expression = ''
+
+// switch(expression) {
+//     case 'a':
+//         //codigo
+//         console.log('a')
+//         break
+//     case 'b':
+//         //codigo para expressão b
+//         console.log('b')
+//         break
+//     default:
+//         console.log('default')
+//         break  
+// }
+// ============
+// // throw === disparar/lançar
+
+// function sayMyName(name = '') {
+//     if (name === '') {
+//         throw 'Nome é obrigatório'
+//     }
+//     console.log('depois do erro')
+// }
+// // try...catch === tentar...pegar/capturar  
+
+// try {
+//     sayMyName()
+// } catch(e) {
+//     console.log(e)
+// }
+// ============
+//  for (let i = 0; i <= 10; i++) {
+//      console.log(i)
+//  }
+//  existem dois tipos de controle: 
+//  break - para a execução do loop
+// for (let i = 10; i > 0; i--) {
+//     if(i === 5) {
+//         break;
+//     }
+//     console.log(i)
+// }
+// continue - pula a execução do momento
+// for (let i = 10; i > 0; i--) {
+//     if (i === 5) {
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+// let c = 1
+
+// while(c < 10) {
+//     console.log(c)
+//     c++
+// }
+
+// let name = "Lucas"
+// let names = ['João', 'Pedro', 'Aline']
+
+// for(name of names) {
+//     console.log(name)
+// }
+
+// let person = {
+//     name: "Lucas",
+//     age: 23,
+//     weight: 72.3,
+// }
+
+// for(let property in person) {
+//     console.log(property)
+//     console.log(person[property])
+// }
