@@ -113,3 +113,59 @@
 // let index = techs.indexOf('html')
 // techs.splice(index, 2)
 // console.log(techs)
+
+// let name = new String('Lucas')
+// name.surName = "Sousa"
+// let age = new Number(23)
+// console.log(name.surName, age)
+
+// let date = new Date('2021-04-01')
+// console.log(date)
+
+// const person = {
+//     FirstName: 'Lucas',
+//     age: 23,
+// }
+
+// delete person.age
+// console.log(person)
+
+// console.log(10 * 2)
+// console.log(10 / 2)
+// console.log(10 + 2)
+// console.log(10 - 2)
+
+// let remainder;
+// remainder = 10 % 2
+// console.log(remainder)
+
+// let increment = 0
+// increment++
+// console.log(increment)
+
+// let decrement = 0
+// decrement--
+// console.log(decrement)
+
+// console.log(3 ** 3)
+
+// let total = (2 + 3) * 5
+// console.log(total)
+
+// let one = 1
+// let two = 2
+// console.log(one == two)
+
+let x 
+
+// assignment
+x = 1
+// addition assignment
+x +=2
+// subtraction assignment
+x -=2
+// multiplication assignment
+x *= 2
+// division assignment
+x /= 2
+console.log(x)
