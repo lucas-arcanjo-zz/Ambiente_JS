@@ -1,3 +1,51 @@
+# Tipos de dados
+
+Array (Vetores)
+    * Uma lista
+    * Agrupamento de dado
+
+`["Lucas", 36]`
+```
+console.log([
+    "Leite",
+    "Ovos"
+])
+```
+=====================================================================
+Boolean
+* Somente 2 valores
+
+    true // verdadeiro
+    false // falso
+
+`console.log(true)`
+=====================================================================
+Number
+
+    33 // inteiros
+    12.5 // reais - float
+    NaN // Not a Number
+    Infinity // infinito
+=====================================================================
+Object // objeto
+
+    * Propiedade // atributo
+    * funcionalidades // métodos
+  { propiedade: "valor" }
+=====================================================================
+String
+    * Cadeia de caracteres
+    
+    "" // aspas duplas
+    '' // aspas simples
+    `` // template litarls ou template strings
+    ${} // interpolação
+=====================================================================
+    undefined // indefinido
+    null // nulo 
+    um objeto que não possui nada
+    diferente de indefinido
+=====================================================================
 # Scope
 
 * Escopo determina a visibilidade de alguma variável no js
