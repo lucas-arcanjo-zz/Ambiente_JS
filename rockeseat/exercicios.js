@@ -8,7 +8,7 @@
 // * entre 60 - 69 - D
 // * menor que 60 - F
 
-// # Exercicío feito
+// ### Exercicío feito
 function notes(note) {
 
     if (note >= 90 && note <= 100) {
@@ -38,7 +38,7 @@ notes(75)
 notes(85)
 notes(95)
 
-// # Exercicío corrigido 
+// ### Exercicío corrigido 
 function getScore(score) {
     let scoreA = score >= 90 && score <= 100
     let scoreB = score >= 80 && score <= 89
@@ -84,7 +84,7 @@ console.log(getScore(95))
  
 // Agora, crie uma função que irá calcular o total de receitas e despesas e irá mostrar uma mensagem se a família está com saldo positivo ou negativo, seguido do valor do saldo.
 
-// # Exercicío feito
+// ### Exercicío feito
 OrganizandoAVida = {
     ganhos: [2800, 1000],
     despesas: [100, 100, 700, 300, 150, 120, 600, 12600]
@@ -112,7 +112,7 @@ function statusMes() {
 
 statusMes()
 
-//  # Exercicío corrigido
+//  ### Exercicío corrigido
 let family = {
     incomes: [2500, 3200, 250.43, 360.45],
     expenses: [320.34, 128.45, 176.87, 1450.00],
@@ -143,4 +143,83 @@ function calculateBalance() {
 }
 
 calculateBalance()
-*/
+// ===================================== */
+
+/* // Celsius em fahrenheit
+
+// Crie uma função que receba uma string em celsius ou fahrenheit e faça a transformação de uma unidade para outra
+
+// C = (F - 32) * 5/9
+
+// F = C * 9/5 + 32
+
+// ### Exercicio feito 
+function converter(valor) {
+    const existeCelsius = valor.toUpperCase().includes("C")
+    const existeFahrenheit = valor.toUpperCase().includes("F")
+
+    // mensagem de erro caso         
+    if (!existeCelsius && !existeFahrenheit) {
+        throw new Error('Grau não identificado')
+    }
+
+    // de Celsius para Fahrenheit
+    let atualizandoGraus = Number(valor.toUpperCase().replace("C", ""));
+    let formula = (celsius) => celsius * 9 / 5 + 32
+    let trocandoSigla = "F"
+
+    // de Fahrenheit para Celsius
+    if (existeFahrenheit) {
+        atualizandoGraus = Number(valor.toUpperCase().replace("F", ""));
+        formula = (fahrenheit) => (fahrenheit - 32) * 5/9
+        trocandoSigla = "C"
+    }
+
+    return formula(atualizandoGraus) + trocandoSigla
+}
+
+try {
+    console.log(converter('50f'))
+    console.log(converter('10c'))
+    console.log(converter('50G'))
+} catch (error) {
+    console.log(error.message)
+}
+
+// ### Exercicio corrigido
+
+// tranformDegree('50F')
+function transformDegree(degree) {
+    const celsiusExists = degree.toUpperCase().includes('C')
+    const fahrenheitExists = degree.toUpperCase().includes('F')
+
+    // fluxo de erro
+    if (!celsiusExists && !fahrenheitExists) {
+        throw new Error('Grau não identificado')
+    }
+
+    // fluxo ideal F --> C
+    let uptadedDegree = Number(degree.toUpperCase().replace("F", ""));
+    let formula = fahrenheit => (fahrenheit - 32) * 5 / 9
+    let degreeSign = 'C'
+
+    // fluxo alternativo C --> F
+    if (celsiusExists) {
+        uptadedDegree = Number(degree.toUpperCase().replace("C", ""));
+        formula = celsius => celsius * 9/5 + 32
+        degreeSign = 'F'
+    }
+
+    return formula(uptadedDegree) + degreeSign
+}
+
+
+try {
+    console.log(transformDegree('10c'))
+    console.log(transformDegree('50f'))
+    transformDegree('50Z')
+} catch (error) {
+    console.log(error.message)
+}
+// OBS: PODE HAVER UM NaN se o argumento da função for '10ef', por isso, é necessário limpar, usando a expressão regular.
+// ===================================== */
